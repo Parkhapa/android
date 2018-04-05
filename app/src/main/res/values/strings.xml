@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ParkHapa</string>
+    <array name="menuOptions">
+        <item>Explore</item>
+        <item>Feedback</item>
+        <item>About</item>
+        <item>Tell a Friend</item>
+    </array>
+
+
+    <array name="password">
+        <item>$2a$04$xLqJbpivLRkXam5jdnr41OmK8unvEKcGWYzVDaoEZHK68x/jyhIF2</item>
+        <item>$2a$04$KtIsz7tfLR0fy0rbv/WUE.MJbaYJJ.O2otPiZ1nFuLgp59vAO2lBK</item>
+        <item>$2a$04$d.FLQx28pm3s4JvG04jhxODaMcoC6HxV5lHGmb92ypTGUDEUhK.J2</item>
+    </array>
+
+    <!-- Twitter Keys -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="twitter_consumer_key">By3jej4WQUBDjxFr0iNqd4cNL</string>
+    <string name="twitter_consumer_secret">odILbiFe8v6qMYDiib4CK9P4SM8gUAIXwIldDTTwd8I8e6dfIl</string>
+
+
+    <!-- Facebook keys -->
+    <string name="facebook_app_id">1974328729490933</string>
+    <string name="fb_login_protocol_scheme">f255c1e7308c9b6e200f7d9a1db5ec9a</string>
+
+
+    <string name="invitation_title">Send App Invite Quickstart Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try and get $5 off!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">https://developers.google.com/identity/images/g-logo.png</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="feeedback_desc">We want to hear what you love and what you think we can do better. We won\'t be able to respond to every piece of feedback individually.</string>
+    <string name="description">An Information Systems Project submitted to Strathmore  Faculty of Information in partial fulfillment of the requirements for the award of a degree in Bachelor of Science in Informatics.</string>
+</resources>
