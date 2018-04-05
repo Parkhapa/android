@@ -145,13 +145,13 @@ public class SignupActivity extends AppCompatActivity {
                          String   userPassword= mtitle.get(2);
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("TAG", "createUserWithEmail:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
                             startActivity( new Intent( getApplicationContext() , MainActivity.class));
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("TAG", "createUserWithEmail:failure", task.getException());
                             Toast.makeText(SignupActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
+
                         }
                     }
 
